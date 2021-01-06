@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.half-width{
+  height: 800px;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 3%;
+    
+}
+
+.text-highlight{
+    color: rgb(78, 78, 177);
+}
+
+
+.half-width img{
+    width: 100%;
+    transform: scaleY(1);
+}
+section{
+    height: 800px;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.button{
+    
+    padding: 5px 5px;
+    margin-top: 30px;
+    
+    color: white;
+    text-align: center;
+    width: 15%;
+    height: 5%;
+    border: none;
+   
+    font-weight: 900;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    border-radius: 5%;
+}
+
+  #text-padding{
+      padding-top: 100px;
+      text-align: justify;
+  }
+  .third{
+      width: 100%;
+      background-color:rgb(235, 232, 232);
+  }
+  #text-center{
+    
+    text-align: center;
+}
+#header-working{
+    padding: 100px ;
+    text-align: center;
+}
+#separate{
+ width: 90%;
+ margin-left: 10%;
+ margin-right: 10%;
+ 
+}
+.quater{
+    float: left;
+    width:25%;
+    margin: 2%;
+    border-radius: 3%;
+    box-shadow: 10px 10px 40px gray;;
+}
+
+.quater-image{
+    width:100%;
+    margin: 2px;
+
+
+}
+#work{
+    margin: 100px 200px;
+    display: inline block;
+    height: 200px;
+    background-repeat: round;
+    
+   
+    background-image: url("shapes/Group_33094_1.png");
+    padding-left: 100px;
+    padding-top: 50px;
+    
+}
+#special-text{
+    
+    color: white;
+}
+#special-button{
+    font-size: 40px;
+    margin-left: 700px;
+    font-weight: 900;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    border-radius: 5%;
+}
+footer{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid black;
+}
+#footer-p{
+    font-weight: 500;
+    opacity: .4;
+}
